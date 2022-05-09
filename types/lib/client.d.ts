@@ -227,6 +227,11 @@ export declare class MqttClient extends events.EventEmitter {
   /**
    * getLastMessageId
    */
-  public getLastMessageId (): number
+  public getLastMessageId(): number
+
+  /**
+   * 수동으로 Ping을 보낸다.
+   */
+  public sendPing(): void;
 }
 export { IClientOptions }
