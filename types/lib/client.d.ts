@@ -226,6 +226,8 @@ export declare class MqttClient extends events.EventEmitter {
   /**
    * getLastMessageId
    */
-  public getLastMessageId (): number
+  public getLastMessageId(): number
+  
+  public sendPing(): void;
 }
 export { IClientOptions }
