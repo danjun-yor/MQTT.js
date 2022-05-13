@@ -19,3 +19,4 @@ package-lock.json
 # VS Code stuff
 **/typings/**
 **/.vscode/**
+.turbo
